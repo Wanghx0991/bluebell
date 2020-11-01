@@ -1,0 +1,5 @@
+{"level":"INFO","time":"2020-11-01T23:46:07.106+0800","caller":"bluebell/server.go:24","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-01T23:46:07.107+0800","caller":"bluebell/server.go:30","msg":"Mysql init Success"}
+{"level":"INFO","time":"2020-11-01T23:46:07.107+0800","caller":"bluebell/server.go:35","msg":"redis init Success"}
+{"level":"INFO","time":"2020-11-01T23:46:15.265+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36","errors":"","cost":0.000123998}
+{"level":"INFO","time":"2020-11-01T23:46:27.015+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36","errors":"","cost":0.00001462}

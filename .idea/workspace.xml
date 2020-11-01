@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f89fb56-5db3-4429-bd24-06b62c3353cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/bluebell.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/mysql/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/redis/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/settings.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.5/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1jglqBnZMB65thgxJov5MzgPtnm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build bluebell" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bluebell" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/server.go" />
+      <package value="bluebell" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build bluebell" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2004" height="371" key="GridCell.Tab.0.bottom" timestamp="1604245435983">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2004" height="371" key="GridCell.Tab.0.bottom/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604245435983" />
+    <state width="2004" height="371" key="GridCell.Tab.0.center" timestamp="1604245435982">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2004" height="371" key="GridCell.Tab.0.center/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604245435982" />
+    <state width="2004" height="371" key="GridCell.Tab.0.left" timestamp="1604245435981">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2004" height="371" key="GridCell.Tab.0.left/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604245435981" />
+    <state width="2004" height="371" key="GridCell.Tab.0.right" timestamp="1604245435982">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2004" height="371" key="GridCell.Tab.0.right/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604245435982" />
+    <state width="2004" height="456" key="GridCell.Tab.1.bottom" timestamp="1604244558563">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2004" height="456" key="GridCell.Tab.1.bottom/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604244558563" />
+    <state width="2004" height="456" key="GridCell.Tab.1.center" timestamp="1604244558562">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2004" height="456" key="GridCell.Tab.1.center/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604244558562" />
+    <state width="2004" height="456" key="GridCell.Tab.1.left" timestamp="1604244558560">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2004" height="456" key="GridCell.Tab.1.left/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604244558560" />
+    <state width="2004" height="456" key="GridCell.Tab.1.right" timestamp="1604244558562">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2004" height="456" key="GridCell.Tab.1.right/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604244558562" />
+    <state x="708" y="390" width="632" height="500" key="find.popup" timestamp="1604242684380">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="708" y="390" width="632" height="500" key="find.popup/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604242684380" />
+  </component>
+</project>
