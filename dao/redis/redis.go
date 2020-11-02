@@ -1,17 +1,19 @@
 package redis
 
 import (
+	"bluebell/settings"
 	"fmt"
 	"github.com/go-redis/redis"
-	"github.com/spf13/viper"
+	"strconv"
 )
 
 // 声明一个全局的rdb变量
 var rdb *redis.Client
 
 // 初始化连接
-func Init() (err error) {
-	add := fmt.Sprintf("%s:%s",viper.GetString("redis.host"),string(viper.GetString("redis.port")))
+func Init(conf *settings.RedisConfig) (err error) {
+	add := fmt.Sprintf("%s:%s",conf.Host,strconv.Itoa(conf.Port))
+	fmt.Printf("\n\n add = %v",add)
 	rdb = redis.NewClient(&redis.Options{
 		Addr: add,
 		Password: "", // no password set

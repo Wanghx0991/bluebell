@@ -1,0 +1,29 @@
+
+name: "blue_bell"
+mod: "dev"
+port: 8081
+m achine_id: 1
+start_time: "2020-10-20"
+
+
+
+log:
+  level: "debug"
+  filename: "bule_bell.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: "localhost"
+  port: 3306
+  user: "root"
+  password: "whx1994927"
+  dbname: "sql_bluebell"
+
+
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+  password: ""

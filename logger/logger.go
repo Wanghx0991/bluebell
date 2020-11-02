@@ -1,6 +1,7 @@
 package logger
 
 import (
+	"bluebell/settings"
 	"github.com/spf13/viper"
 	"net"
 	"net/http"
@@ -19,9 +20,9 @@ import (
 
 
 // InitLogger 初始化Logger
-func Init() (err error) {
+func Init(conf *settings.LogConfig) (err error) {
 
-	writeSyncer := getLogWriter(viper.GetString("log.filename"), viper.GetInt("log.maxsize"), viper.GetInt("log.max_backups"), viper.GetInt("log.max_age"))
+	writeSyncer := getLogWriter(conf.Filename, conf.MaxSize, conf.MaxBackups, conf.MaxAge)
 	encoder := getEncoder()
 	var l = new(zapcore.Level)
 	err = l.UnmarshalText([]byte(viper.GetString("log.level")))
