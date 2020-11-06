@@ -1,6 +1,6 @@
 
 name: "blue_bell"
-mod: "dev"
+mode: "dev"
 port: 8081
 m achine_id: 1
 start_time: "2020-10-20"
@@ -19,7 +19,7 @@ mysql:
   port: 3306
   user: "root"
   password: "whx1994927"
-  dbname: "sql_bluebell"
+  dbname: "bluebell"
 
 
 redis:

@@ -1,6 +1,8 @@
 package snowflake
 
 import (
+	"crypto/md5"
+	"encoding/hex"
 	"go.uber.org/zap"
 	"time"
 
@@ -23,4 +25,11 @@ func Init(starttime string,machineID int64) (err error) {
 
 func GenID() int64 {
 	return node.Generate().Int64()
+}
+
+func EncryptPassword(orig,secret string) string  {
+	h := md5.New()
+	h.Write([]byte(secret))
+	h.Sum([]byte(orig))
+	return hex.EncodeToString(h.Sum([]byte(orig)))
 }

@@ -10,7 +10,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f89fb56-5db3-4429-bd24-06b62c3353cf" name="Default Changelist" comment="" />
+    <list default="true" id="7f89fb56-5db3-4429-bd24-06b62c3353cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bule_bell.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/code.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logic/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logic/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/jwt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/RequestParam.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/jwt/jwt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5de17cb-188b-4c0c-9b54-7afb67932bae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5de17cb-188b-4c0c-9b54-7afb67932bae/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluebell" beforeDir="false" afterPath="$PROJECT_DIR$/bluebell" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/mysql/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/redis/redis.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/redis.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/logger/logger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/create_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/create_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/settings.go" beforeDir="false" afterPath="$PROJECT_DIR$/settings/settings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/snowflake/snowflake.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/snowflake/snowflake.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,10 +86,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/config" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build bluebell">
+  <component name="RunManager" selected="Go Test.TestLogin in bluebell/logic">
     <configuration name="go build bluebell" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bluebell" />
       <working_directory value="$PROJECT_DIR$" />
@@ -71,19 +100,57 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bluebell/util/snowflake" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLogin in bluebell/logic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="bluebell" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/logic" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/util/snowflake/snowflake.go" />
-      <package value="bluebell/util/snowflake" />
+      <package value="bluebell/logic" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestLogin\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSignUp in bluebell/logic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bluebell" />
+      <working_directory value="$PROJECT_DIR$/logic" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="bluebell/logic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestSignUp\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserDAO_InsertUser in bluebell/models" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bluebell" />
+      <working_directory value="$PROJECT_DIR$/models" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="bluebell/models" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestUserDAO_InsertUser\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserDAO_QueryUser in bluebell/models" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bluebell" />
+      <working_directory value="$PROJECT_DIR$/models" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="bluebell/models" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestUserDAO_QueryUser\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLogin in bluebell/logic" />
+        <item itemvalue="Go Test.TestSignUp in bluebell/logic" />
+        <item itemvalue="Go Test.TestUserDAO_QueryUser in bluebell/models" />
+        <item itemvalue="Go Test.TestUserDAO_InsertUser in bluebell/models" />
         <item itemvalue="Go Build.go build bluebell" />
-        <item itemvalue="Go Build.go build bluebell/util/snowflake" />
       </list>
     </recent_temporary>
   </component>
@@ -110,14 +177,18 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="761" y="295" width="839" height="521" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1604328579629">
+    <state x="658" y="325" key="#Inspections" timestamp="1604536906387">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="761" y="295" width="839" height="521" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604328579629" />
-    <state x="624" y="305" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604332371701">
+    <state x="658" y="325" key="#Inspections/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604536906387" />
+    <state x="760" y="294" width="839" height="521" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1604506280061">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="624" y="305" key="#com.intellij.execution.impl.EditConfigurationsDialog/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604332371701" />
+    <state x="760" y="294" width="839" height="521" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604506280061" />
+    <state x="766" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604508609329">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="766" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604508609329" />
     <state x="695" y="451" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604331112481">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
@@ -126,75 +197,69 @@
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604332274818" />
-    <state width="2004" height="371" key="GridCell.Tab.0.bottom" timestamp="1604335917414">
+    <state width="2004" height="456" key="GridCell.Tab.0.bottom" timestamp="1604624840697">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="371" key="GridCell.Tab.0.bottom/290.-1417.2560.1417/0.0.2048.1280@0.0.2048.1280" timestamp="1604335917414" />
-    <state width="2004" height="456" key="GridCell.Tab.0.bottom/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604335855437" />
-    <state width="2004" height="371" key="GridCell.Tab.0.center" timestamp="1604335917412">
+    <state width="2004" height="456" key="GridCell.Tab.0.bottom/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604624840697" />
+    <state width="2004" height="456" key="GridCell.Tab.0.center" timestamp="1604624840696">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="371" key="GridCell.Tab.0.center/290.-1417.2560.1417/0.0.2048.1280@0.0.2048.1280" timestamp="1604335917412" />
-    <state width="2004" height="456" key="GridCell.Tab.0.center/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604335855435" />
-    <state width="2004" height="371" key="GridCell.Tab.0.left" timestamp="1604335917412">
+    <state width="2004" height="456" key="GridCell.Tab.0.center/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604624840696" />
+    <state width="2004" height="456" key="GridCell.Tab.0.left" timestamp="1604624840695">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="371" key="GridCell.Tab.0.left/290.-1417.2560.1417/0.0.2048.1280@0.0.2048.1280" timestamp="1604335917412" />
-    <state width="2004" height="456" key="GridCell.Tab.0.left/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604335855430" />
-    <state width="2004" height="371" key="GridCell.Tab.0.right" timestamp="1604335917413">
+    <state width="2004" height="456" key="GridCell.Tab.0.left/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604624840695" />
+    <state width="2004" height="456" key="GridCell.Tab.0.right" timestamp="1604624840697">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="371" key="GridCell.Tab.0.right/290.-1417.2560.1417/0.0.2048.1280@0.0.2048.1280" timestamp="1604335917413" />
-    <state width="2004" height="456" key="GridCell.Tab.0.right/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604335855437" />
-    <state width="2004" height="456" key="GridCell.Tab.1.bottom" timestamp="1604335855440">
+    <state width="2004" height="456" key="GridCell.Tab.0.right/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604624840697" />
+    <state width="2004" height="456" key="GridCell.Tab.1.bottom" timestamp="1604624840700">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="456" key="GridCell.Tab.1.bottom/290.-1417.2560.1417/0.0.2048.1280@0.0.2048.1280" timestamp="1604332320531" />
-    <state width="2004" height="456" key="GridCell.Tab.1.bottom/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604335855440" />
-    <state width="2004" height="456" key="GridCell.Tab.1.center" timestamp="1604335855439">
+    <state width="2004" height="456" key="GridCell.Tab.1.bottom/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604624840700" />
+    <state width="2004" height="456" key="GridCell.Tab.1.center" timestamp="1604624840699">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="456" key="GridCell.Tab.1.center/290.-1417.2560.1417/0.0.2048.1280@0.0.2048.1280" timestamp="1604332320530" />
-    <state width="2004" height="456" key="GridCell.Tab.1.center/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604335855439" />
-    <state width="2004" height="456" key="GridCell.Tab.1.left" timestamp="1604335855438">
+    <state width="2004" height="456" key="GridCell.Tab.1.center/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604624840699" />
+    <state width="2004" height="456" key="GridCell.Tab.1.left" timestamp="1604624840698">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="456" key="GridCell.Tab.1.left/290.-1417.2560.1417/0.0.2048.1280@0.0.2048.1280" timestamp="1604332320529" />
-    <state width="2004" height="456" key="GridCell.Tab.1.left/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604335855438" />
-    <state width="2004" height="456" key="GridCell.Tab.1.right" timestamp="1604335855440">
+    <state width="2004" height="456" key="GridCell.Tab.1.left/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604624840698" />
+    <state width="2004" height="456" key="GridCell.Tab.1.right" timestamp="1604624840699">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="456" key="GridCell.Tab.1.right/290.-1417.2560.1417/0.0.2048.1280@0.0.2048.1280" timestamp="1604332320531" />
-    <state width="2004" height="456" key="GridCell.Tab.1.right/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604335855440" />
-    <state x="563" y="279" key="SettingsEditor" timestamp="1604328597947">
+    <state width="2004" height="456" key="GridCell.Tab.1.right/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604624840699" />
+    <state x="563" y="279" key="SettingsEditor" timestamp="1604506343462">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="563" y="279" key="SettingsEditor/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604328597947" />
+    <state x="563" y="279" key="SettingsEditor/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604506343462" />
     <state x="924" y="525" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604332285902">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state x="924" y="525" key="com.intellij.database.actions.DdlActions$CreateObject$1/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604332285902" />
-    <state x="708" y="390" width="632" height="500" key="find.popup" timestamp="1604242684380">
+    <state x="931" y="537" width="363" height="225" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604508665260">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="708" y="390" width="632" height="500" key="find.popup/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604242684380" />
+    <state x="931" y="537" width="363" height="225" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604508665260" />
+    <state x="708" y="390" width="632" height="500" key="find.popup" timestamp="1604541757988">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="708" y="390" width="632" height="500" key="find.popup/290.-1440.2560.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1604541757988" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/util/snowflake/snowflake.go</url>
-          <line>12</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/util/snowflake/snowflake.go</url>
-          <line>13</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/server.go</url>
-          <line>41</line>
+          <line>46</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>

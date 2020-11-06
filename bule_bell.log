@@ -1,0 +1,26 @@
+{"level":"INFO","time":"2020-11-05T23:31:42.094+0800","caller":"bluebell/server.go:25","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-05T23:31:42.096+0800","caller":"bluebell/server.go:30","msg":"Mysql init Success"}
+{"level":"INFO","time":"2020-11-05T23:31:42.098+0800","caller":"bluebell/server.go:35","msg":"redis init Success"}
+{"level":"ERROR","time":"2020-11-05T23:31:51.631+0800","caller":"logic/user.go:48","msg":"用户不存在"}
+{"level":"ERROR","time":"2020-11-05T23:31:51.631+0800","caller":"controllers/user.go:82","msg":"用户不存在"}
+{"level":"INFO","time":"2020-11-05T23:31:51.631+0800","caller":"logger/logger.go:80","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.001026572}
+{"level":"INFO","time":"2020-11-05T23:32:34.692+0800","caller":"bluebell/server.go:25","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-05T23:32:34.693+0800","caller":"bluebell/server.go:30","msg":"Mysql init Success"}
+{"level":"INFO","time":"2020-11-05T23:32:34.696+0800","caller":"bluebell/server.go:35","msg":"redis init Success"}
+{"level":"INFO","time":"2020-11-05T23:32:37.727+0800","caller":"logger/logger.go:80","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000777928}
+{"level":"INFO","time":"2020-11-05T23:40:33.255+0800","caller":"bluebell/server.go:25","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-05T23:40:33.257+0800","caller":"bluebell/server.go:30","msg":"Mysql init Success"}
+{"level":"INFO","time":"2020-11-05T23:40:33.259+0800","caller":"bluebell/server.go:35","msg":"redis init Success"}
+{"level":"ERROR","time":"2020-11-05T23:40:36.390+0800","caller":"controllers/user.go:82","msg":"Password is not same"}
+{"level":"INFO","time":"2020-11-05T23:40:36.390+0800","caller":"logger/logger.go:80","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.001059838}
+{"level":"ERROR","time":"2020-11-05T23:40:45.514+0800","caller":"controllers/user.go:82","msg":"Password is not same"}
+{"level":"INFO","time":"2020-11-05T23:40:45.514+0800","caller":"logger/logger.go:80","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000698439}
+{"level":"INFO","time":"2020-11-05T23:41:02.428+0800","caller":"logger/logger.go:80","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000658414}
+{"level":"INFO","time":"2020-11-06T00:01:47.390+0800","caller":"bluebell/server.go:25","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-06T00:01:47.392+0800","caller":"bluebell/server.go:30","msg":"Mysql init Success"}
+{"level":"INFO","time":"2020-11-06T00:01:47.394+0800","caller":"bluebell/server.go:35","msg":"redis init Success"}
+{"level":"INFO","time":"2020-11-06T00:02:01.840+0800","caller":"logger/logger.go:80","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.013666415}
+{"level":"INFO","time":"2020-11-06T09:32:56.678+0800","caller":"bluebell/server.go:25","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-06T09:32:56.680+0800","caller":"bluebell/server.go:30","msg":"Mysql init Success"}
+{"level":"INFO","time":"2020-11-06T09:32:56.682+0800","caller":"bluebell/server.go:35","msg":"redis init Success"}
+{"level":"INFO","time":"2020-11-06T09:33:05.403+0800","caller":"logger/logger.go:80","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.003559077}

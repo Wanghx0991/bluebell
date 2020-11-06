@@ -49,7 +49,7 @@ var Conf = new(AppConfig)
 //定义了结构体后,程序启动还是使用viper加载yaml信息,加载完后反序列化到结构体变量里,
 //后续在程序中使用配置信息时,直接使用结构体即可
 func Init() (err error) {
-	viper.SetConfigFile("./config/config.yaml") // 指定配置文件
+	viper.SetConfigFile("/Users/wanghaoxin/go/src/bluebell/config/config.yaml") // 指定配置文件
 	err = viper.ReadInConfig()        // 读取配置信息
 	if err != nil {                    // 读取配置信息失败
 		fmt.Printf("viper.ReadInConfig Failed err = %s",err)
